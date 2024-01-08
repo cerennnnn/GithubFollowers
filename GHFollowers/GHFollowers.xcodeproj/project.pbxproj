@@ -28,6 +28,7 @@
 		338B14DC2B4A11EB000375B9 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B14DB2B4A11EB000375B9 /* GFAlertVC.swift */; };
 		338B14DE2B4A192A000375B9 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B14DD2B4A192A000375B9 /* UIViewController+Ext.swift */; };
 		33BCF0862B4C12CC00976576 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF0852B4C12CC00976576 /* GFEmptyStateView.swift */; };
+		33BCF0DE2B4C8D1800976576 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF0DD2B4C8D1800976576 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		338B14DB2B4A11EB000375B9 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		338B14DD2B4A192A000375B9 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 		33BCF0852B4C12CC00976576 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
+		33BCF0DD2B4C8D1800976576 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				338B14CD2B49E0FD000375B9 /* SearchVC.swift */,
 				338B14D52B4A06A5000375B9 /* FollowerListVC.swift */,
 				338B14CF2B49E12D000375B9 /* FavoritesListVC.swift */,
+				33BCF0DD2B4C8D1800976576 /* UserInfoVC.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				338B14D62B4A06A5000375B9 /* FollowerListVC.swift in Sources */,
 				338B14BA2B49D28D000375B9 /* AppDelegate.swift in Sources */,
 				338B14BC2B49D28D000375B9 /* SceneDelegate.swift in Sources */,
+				33BCF0DE2B4C8D1800976576 /* UserInfoVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
