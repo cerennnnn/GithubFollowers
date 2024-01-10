@@ -31,6 +31,7 @@
 		338B14DA2B4A112D000375B9 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B14D92B4A112D000375B9 /* GFBodyLabel.swift */; };
 		338B14DC2B4A11EB000375B9 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B14DB2B4A11EB000375B9 /* GFAlertVC.swift */; };
 		338B14DE2B4A192A000375B9 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338B14DD2B4A192A000375B9 /* UIViewController+Ext.swift */; };
+		33BA950A2B4F211200F6B837 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BA95092B4F211200F6B837 /* GFItemInfoVC.swift */; };
 		33BCF0862B4C12CC00976576 /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF0852B4C12CC00976576 /* GFEmptyStateView.swift */; };
 		33BCF0DE2B4C8D1800976576 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BCF0DD2B4C8D1800976576 /* UserInfoVC.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		338B14D92B4A112D000375B9 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		338B14DB2B4A11EB000375B9 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		338B14DD2B4A192A000375B9 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		33BA95092B4F211200F6B837 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		33BCF0852B4C12CC00976576 /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		33BCF0DD2B4C8D1800976576 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -225,6 +227,7 @@
 			children = (
 				338B14DB2B4A11EB000375B9 /* GFAlertVC.swift */,
 				338429712B4D4200004FAF86 /* GFUserInfoHeaderVC.swift */,
+				33BA95092B4F211200F6B837 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				338B14D82B4A0F8B000375B9 /* GFTitleLabel.swift in Sources */,
 				338B14DE2B4A192A000375B9 /* UIViewController+Ext.swift in Sources */,
 				33566FCB2B4B36EF004F9C7E /* UIHelper.swift in Sources */,
+				33BA950A2B4F211200F6B837 /* GFItemInfoVC.swift in Sources */,
 				338429762B4D62D9004FAF86 /* Constants.swift in Sources */,
 				33566FC92B4AFCD5004F9C7E /* GFAvatarImageView.swift in Sources */,
 				338B14D22B49EBBD000375B9 /* GFButton.swift in Sources */,
