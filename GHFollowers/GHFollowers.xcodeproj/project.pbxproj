@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		330F371C2B4FF228004FEEE3 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F371B2B4FF228004FEEE3 /* PersistenceManager.swift */; };
+		330F371E2B5002E8004FEEE3 /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330F371D2B5002E8004FEEE3 /* FavoriteCell.swift */; };
 		331785A42B4A9F2900DC0FA4 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331785A32B4A9F2900DC0FA4 /* Follower.swift */; };
 		331785A62B4AA7EE00DC0FA4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331785A52B4AA7EE00DC0FA4 /* User.swift */; };
 		331785A92B4AAEA900DC0FA4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331785A82B4AAEA900DC0FA4 /* NetworkManager.swift */; };
@@ -43,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		330F371B2B4FF228004FEEE3 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		330F371D2B5002E8004FEEE3 /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
 		331785A32B4A9F2900DC0FA4 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		331785A52B4AA7EE00DC0FA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		331785A82B4AAEA900DC0FA4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				331785AE2B4AFAC300DC0FA4 /* FollowerCell.swift */,
+				330F371D2B5002E8004FEEE3 /* FavoriteCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				338B14DC2B4A11EB000375B9 /* GFAlertVC.swift in Sources */,
 				33BA95112B4F304C00F6B837 /* Dates+Ext.swift in Sources */,
 				33BA950E2B4F285C00F6B837 /* GFFollowerItemVC.swift in Sources */,
+				330F371E2B5002E8004FEEE3 /* FavoriteCell.swift in Sources */,
 				338429782B4DFCE9004FAF86 /* GFItemInfoView.swift in Sources */,
 				331785AF2B4AFAC300DC0FA4 /* FollowerCell.swift in Sources */,
 				331785AC2B4AEF0A00DC0FA4 /* GFError.swift in Sources */,
