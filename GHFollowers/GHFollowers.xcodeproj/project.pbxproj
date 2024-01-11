@@ -208,10 +208,10 @@
 				331785AA2B4AEEF700DC0FA4 /* Utilities */,
 				331785A72B4AAE9F00DC0FA4 /* Managers */,
 				331785A22B4A9F1A00DC0FA4 /* Model */,
-				331785A12B4A97B600DC0FA4 /* Support */,
 				331785A02B4A976600DC0FA4 /* Extensions */,
 				3317859F2B4A971700DC0FA4 /* Custom Views */,
 				3317859E2B4A96D800DC0FA4 /* Screens */,
+				331785A12B4A97B600DC0FA4 /* Support */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
