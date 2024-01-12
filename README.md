@@ -3,22 +3,22 @@
 Sean Allen's Take Home Project - Github Followers
 
 Technologies:
-- UIKit
-- Swift
-- No storyboards
-- UICollectionView
-- UITableView
-- User Defaults
-- ScrollView
-- Delegate pattern
-- Protocols
-- Extensions
-- UITabbarController
-- UINavigationController
-- Custom Alerts
-- UITextField
-- UIImageView
-- UIButton
+✨UIKit 
+✨Swift
+✨No storyboards
+✨UICollectionView
+✨UITableView
+✨User Defaults
+✨ScrollView
+✨Delegate pattern
+✨Protocols
+✨Extensions
+✨UITabbarController
+✨UINavigationController
+✨Custom Alerts
+✨UITextField
+✨UIImageView
+✨ UIButton
 
   Screens:
 
