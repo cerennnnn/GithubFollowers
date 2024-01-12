@@ -52,14 +52,8 @@ class UserInfoVC: GFDataLoadingVC {
     }
     
     func configureUIElements(with user: User) {
-        let repoItemVC = GFRepoItemVC(user: user)
-        repoItemVC.delegate = self
-        
-        let followerItemVC = GFFollowerItemVC(user: user)
-        followerItemVC.delegate = self
-        
-        self.add(childVC: repoItemVC, to: self.itemViewOne)
-        self.add(childVC: followerItemVC, to: self.itemViewTwo)
+        self.add(childVC: GFRepoItemVC(user: user, delegate: self), to: self.itemViewOne)
+        self.add(childVC: GFFollowerItemVC(user: user, delegate: self), to: self.itemViewTwo)
         self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
         self.dateLabel.text = "Github since \(user.createdAt.convertToMonthYearFormat())"
     }
@@ -108,8 +102,7 @@ class UserInfoVC: GFDataLoadingVC {
     
 }
 
-extension UserInfoVC: ItemInfoVCDelegate {
-    
+extension UserInfoVC: GFRepoItemVCelegate {
     func didTapGithubProfile(for user: User) {
         //Show safari vc
         guard let url = URL(string: user.htmlUrl) else {
@@ -119,10 +112,12 @@ extension UserInfoVC: ItemInfoVCDelegate {
         
         presentSafariVC(with: url)
     }
-    
+}
+
+extension UserInfoVC: GFFollowerItemVCDelegate {
     func didTapGetFollowers(for user: User) {
         //dismiss vc
-        //tell follower list screen the new user 
+        //tell follower list screen the new user
         guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers, what a shame 😞", buttonTitle: "So sad")
             return
@@ -130,6 +125,5 @@ extension UserInfoVC: ItemInfoVCDelegate {
         delegate.didRequestFollowers(for: user.login)
         dismissVC()
     }
-    
-    
 }
+
