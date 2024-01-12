@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+/*
 extension String {
     func convertToDate() -> Date? {
         let dateFormatter = DateFormatter()
@@ -23,3 +23,4 @@ extension String {
         return date.convertToMonthYearFormat()
     }
 }
+*/
